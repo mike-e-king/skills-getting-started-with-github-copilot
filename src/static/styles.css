@@ -108,8 +108,29 @@ section h3 {
   font-size: 14px;
   border: 1px solid #b0bec5;
   margin-bottom: 4px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
 }
 
+.delete-participant {
+  background: none;
+  border: none;
+  color: #c62828;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 4px;
+  padding: 0 2px;
+  border-radius: 50%;
+  transition: background 0.2s;
+}
+.delete-participant:hover {
+  background: #ffcdd2;
+}
+.participant-email {
+  flex: 1;
+  word-break: break-all;
+}
 .no-participants {
   color: #888;
   font-style: italic;
